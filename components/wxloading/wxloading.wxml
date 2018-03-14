@@ -1,0 +1,8 @@
+<!--components/wxloading/wxloading.wxml-->
+<view>
+  <view class='loading_wrap'>
+    <view class='loading_rotate'>
+      <view></view>
+    </view>
+  </view>
+</view>

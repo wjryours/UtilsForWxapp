@@ -1,0 +1,20 @@
+/* components/wxtoast/wxtoast.wxss */
+.wxtoast{
+  position: fixed;
+  top: 50%;
+  left:50%;
+  margin-left: -250rpx;
+  margin-top: -25rpx;
+  text-align: center;
+  z-index: 9999;
+  color: #fff;
+  background: rgba(0, 0, 0, 1);
+  padding: 15rpx 25rpx ;
+  opacity: 0.7;
+  overflow: hidden;
+  width: 500rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 16px;
+  border-radius: 5px;
+}

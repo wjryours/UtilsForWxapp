@@ -1,0 +1,48 @@
+/* components/wxclip/wxclip.wxss */
+.wxclip{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  z-index: 999;
+}
+.wxclip_canvaswrap{
+  width: 100%;
+  height:90%;
+  position: relative; 
+}
+.wxclip_screenshot{
+  width: 464rpx;
+  height: 746rpx;
+  border:2px dashed #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -373rpx;
+  margin-left: -232rpx;
+}
+.wxclip_canvas{
+  width: 100%;
+  height:100%;
+  z-index: 9999; 
+}
+.wxclip_operation{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+}
+.wxclip_operation_cancel{
+  padding-left:50rpx; 
+}
+.wxclip_operation_confirm{
+  padding-right:50rpx; 
+}

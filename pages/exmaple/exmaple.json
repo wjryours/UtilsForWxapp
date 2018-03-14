@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "wxloading": "../../components/wxloading/wxloading",
+    "wxtoast": "../../components/wxtoast/wxtoast",
+    "wxpopup": "../../components/wxpopup/wxpopup",
+    "wxdailog": "../../components/wxdailog/wxdailog"
+  }
+}

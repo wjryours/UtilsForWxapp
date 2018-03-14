@@ -1,0 +1,17 @@
+<!--pages/exmaple/exmaple.wxml-->
+<button bindtap='ShowToast'>toast按钮</button>
+<button bindtap='ShowPopup'>popup按钮</button>
+<button bindtap='ShowDailog'>dailog按钮</button>
+<view class='bg'></view>
+<button bindtap='ShowPopup'>popup按钮</button>
+<wxloading wx:if="{{false}}"></wxloading>
+<wxtoast id="wxtoast" WxtoastContent="123123"></wxtoast>
+<wxpopup id="wxpopup">
+    <view>
+      这是一个slot插入的内容
+      <button bindtap='HidePopup'>关闭</button>
+    </view>
+</wxpopup>
+<wxdailog id="wxdailog" Width="{{600}}" Height="{{800}}">
+  <view>这是一个弹窗内容</view>
+</wxdailog>

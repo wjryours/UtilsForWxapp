@@ -1,0 +1,12 @@
+<!--components/wxclip/wxclip.wxml-->
+<!-- 微信中截图组件 -->
+<view class='wxclip' wx:if="{{WxclipShow}}">
+  <view class='wxclip_canvaswrap'>
+    <view class='wxclip_screenshot'></view>
+    <canvas id='wxclip_canvas' class='wxclip_canvas' canvas-id='wxclip_canvas'></canvas>
+  </view>
+  <view class='wxclip_operation'>
+    <view class='wxclip_operation_cancel'>取消</view>
+    <view class='wxclip_operation_confirm'>确定</view>
+  </view>
+</view>

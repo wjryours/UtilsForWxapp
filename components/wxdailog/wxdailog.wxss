@@ -1,0 +1,21 @@
+/* components/wxdailog/wxdailog.wxss */
+.wxdailog_mask{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+.wxdailog_content{
+  position: fixed;
+  top:50%;
+  left: 50%;
+  width: 300rpx;
+  height: 300rpx;
+  margin-top: -150rpx;
+  margin-left: -150rpx;
+  background: #fff;
+  z-index: 10000;
+}

@@ -1,0 +1,5 @@
+<!--components/wxpopup/wxpopup.wxml-->
+
+<view class='wxpopup' wx:if="{{PopupShow}}" animation="{{AnimationData}}">
+    <slot></slot>
+</view>

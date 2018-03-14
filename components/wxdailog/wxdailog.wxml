@@ -1,0 +1,9 @@
+<!--components/wxdailog/wxdailog.wxml-->
+<view class='wxdailog_content'
+ wx:if="{{Wxdailog}}"
+ animation="{{AnimationData}}"
+ style="width:{{Width+'rpx'}};height:{{Height+'rpx'}};margin-top:{{-Height/2+'rpx'}};margin-left:{{-Width/2+'rpx'}};border-radius:{{BorderRadius + 'px'}};"
+ >
+    <slot></slot>
+</view>
+<view class='wxdailog_mask' bindtap='HideDailog' wx:if="{{Wxdailog}}" animation="{{AnimationDataMask}}"></view>

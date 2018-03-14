@@ -1,0 +1,4 @@
+<!--components/wxtoast/wxtoast.wxml-->
+<view class='wxtoast' wx:if="{{WxtoastShow}}" animation="{{AnimationData}}">
+  {{WxtoastContent}}
+</view>
